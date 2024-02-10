@@ -26,24 +26,6 @@ export const authenticate = async (prevState:string|undefined,FormData: FormData
     }
 }
 
-// export const CreateUser = async (FormData:FormData) => {
-//     const {username, email, password} = Object.fromEntries(FormData);
-//     try{
-//         connectToDB();
-//     const newUser = new User({
-//         username,
-//         email,
-//         password,
-//     })
-//     await newUser.save();
-//     } catch(error) {
-//         console.log(error);
-//         throw new Error("Failed to register") 
-//     }
-//     revalidatePath('/dashboard');
-//     redirect('/dashboard');
-// }   
-
 export const CreateUserBatch = (FormData:FormData) => {
     try{
         connectToDB();
