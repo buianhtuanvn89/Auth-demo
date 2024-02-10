@@ -10,7 +10,7 @@ const page = () => {
           <button className='border ml-5 p-1 rounded-lg'>DASHBOARD</button>
       </Link>
       <br/>
-      <span>Tai khoan dang nhap : john , pass:123456  </span>
+      <span>Tai khoan dang nhap : michael , pass:fgh  </span>
 
     </>
   )
